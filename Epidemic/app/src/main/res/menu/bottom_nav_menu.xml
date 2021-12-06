@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_content"
+        android:title="信息" />
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_classification"
+        android:title="列表" />
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_wd"
+        android:title="个人信息" />
+</menu>

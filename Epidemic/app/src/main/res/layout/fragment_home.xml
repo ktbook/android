@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1FEFF"
+    android:orientation="vertical"
+    android:paddingTop="10dp">
+
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="566dp"
+        android:alpha="0.3"
+        android:background="#000000" />
+
+    <RelativeLayout
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_above="@+id/view2"
+        android:layout_marginBottom="80dp"
+        android:background="#FFFFFF"
+        android:clipToPadding="true">
+
+        <ImageView
+            android:id="@+id/tubiao5"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="19dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="17dp"
+            android:alpha="0.4"
+            app:srcCompat="@drawable/ic_right" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/daxues" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="124dp"
+            android:layout_height="34dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="202dp"
+            android:layout_toEndOf="@+id/imageView2"
+            android:text="账号：7895251"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="267dp"
+            android:layout_toEndOf="@+id/imageView2"
+            android:text="是阿三阿"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:alpha="0.3"
+            android:background="#000000" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/userlist"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="570dp"
+        android:background="#FFFFFF"
+        android:clipToPadding="true">
+
+        <TextView
+            android:id="@+id/text_zhanghao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="19dp"
+            android:gravity="center"
+            android:text="账号" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:alpha="0.3"
+            android:background="#000000" />
+
+        <ImageView
+            android:id="@+id/tubiao"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="19dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="17dp"
+            android:alpha="0.4"
+            app:srcCompat="@drawable/ic_right" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/yiyuan"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="494dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/text_yinsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="19dp"
+            android:gravity="center"
+            android:text="隐私" />
+
+        <ImageView
+            android:id="@+id/tubiao4"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="19dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="17dp"
+            android:alpha="0.4"
+            app:srcCompat="@drawable/ic_right" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#000000" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="437dp"
+        android:background="#FFFFFF">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/text_tongyon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="19dp"
+            android:gravity="center"
+            android:text="通用" />
+
+        <ImageView
+            android:id="@+id/tubiao2"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="-1dp"
+            android:layout_marginBottom="20dp"
+            android:alpha="0.4"
+            app:srcCompat="@drawable/ic_right" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#000000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="379dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/text_fuzhu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="19dp"
+            android:gravity="center"
+            android:text="辅助功能" />
+
+        <ImageView
+            android:id="@+id/tubiao3"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="19dp"
+            android:alpha="0.4"
+            app:srcCompat="@drawable/ic_right" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#000000" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
